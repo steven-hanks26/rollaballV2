@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/New Material.mat
+    - Assets/New Material.mat.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Dog.prefab
+    - Assets/Prefabs/Dog.prefab.meta
+    - Assets/Prefabs/Floor.prefab
+    - Assets/Prefabs/Floor.prefab.meta
+    - Assets/Prefabs/Food_Bone_01 1.prefab
+    - Assets/Prefabs/Food_Bone_01 1.prefab.meta
+    - Assets/Prefabs/Pickup.prefab
+    - Assets/Prefabs/Pickup.prefab.meta
+    - Assets/Prefabs/Ramp.prefab
+    - Assets/Prefabs/Ramp.prefab.meta
+    - Assets/Prefabs/Sphere 1.prefab
+    - Assets/Prefabs/Sphere 1.prefab.meta
+    - Assets/Prefabs/Sphere.prefab
+    - Assets/Prefabs/Sphere.prefab.meta
+    - Assets/Prefabs/Wall.prefab
+    - Assets/Prefabs/Wall.prefab.meta
+    - Assets/Prefabs/glowdog.prefab
+    - Assets/Prefabs/glowdog.prefab.meta
+    - Assets/Prefabs/palmTree.obj
+    - Assets/Prefabs/palmTree.obj.meta
+    - Assets/Prefabs/skybox.mat
+    - Assets/Prefabs/skybox.mat.meta
+    - Assets/Prefabs/statue_helios.obj
+    - Assets/Prefabs/statue_helios.obj.meta
+    - Assets/Ramp.prefab
+    - Assets/Ramp.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/SaadScene.unity
+    - Assets/Scenes/SaadScene.unity.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scenes/stevenscene.unity
+    - Assets/Scenes/stevenscene.unity.meta
+    - Assets/_Source_Files.meta
+    - Assets/_Source_Files/FBX.meta
+    - Assets/_Source_Files/FBX/Animations.fbx
+    - Assets/_Source_Files/FBX/Animations.fbx.meta
+    - Assets/_Source_Files/FBX/Animations_IK.fbx
+    - Assets/_Source_Files/FBX/Animations_IK.fbx.meta
+    - Assets/_Source_Files/FBX/Animations_Static.fbx
+    - Assets/_Source_Files/FBX/Animations_Static.fbx.meta
+    - Assets/_Source_Files/FBX/SM_Prop_Bone_01.fbx
+    - Assets/_Source_Files/FBX/SM_Prop_Bone_01.fbx.meta
+    - Assets/_Source_Files/FBX/SimpleDogs.fbx
+    - Assets/_Source_Files/FBX/SimpleDogs.fbx.meta
+    - Assets/_Source_Files/FBX/SimpleFarm_Characters.fbx
+    - Assets/_Source_Files/FBX/SimpleFarm_Characters.fbx.meta
+    - Assets/_Source_Files/Materials.meta
+    - Assets/_Source_Files/Materials/SimpleDogs.mat
+    - Assets/_Source_Files/Materials/SimpleDogs.mat.meta
+    - Assets/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat
+    - Assets/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat.meta
+    - Assets/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat
+    - Assets/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat.meta
+    - Assets/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat
+    - Assets/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat.meta
+    - Assets/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat
+    - Assets/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat.meta
+    - Assets/_Source_Files/Misc.meta
+    - Assets/_Source_Files/Misc/Mask_Body.mask
+    - Assets/_Source_Files/Misc/Mask_Body.mask.meta
+    - Assets/_Source_Files/Misc/Mask_Head.mask
+    - Assets/_Source_Files/Misc/Mask_Head.mask.meta
+    - Assets/_Source_Files/Misc/Mask_LowerBody.mask
+    - Assets/_Source_Files/Misc/Mask_LowerBody.mask.meta
+    - Assets/_Source_Files/Misc/SD_Animal_Dog.controller
+    - Assets/_Source_Files/Misc/SD_Animal_Dog.controller.meta
+    - Assets/_Source_Files/Misc/SimpleCharacter.controller
+    - Assets/_Source_Files/Misc/SimpleCharacter.controller.meta
+    - Assets/_Source_Files/Textures.meta
+    - Assets/_Source_Files/Textures/SimpleDogs.png
+    - Assets/_Source_Files/Textures/SimpleDogs.png.meta
+    - Assets/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png
+    - Assets/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png.meta
+    - Assets/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png
+    - Assets/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png.meta
+    - Assets/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png
+    - Assets/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png.meta
+    - Assets/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png
+    - Assets/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png.meta
+    - Assets/_Source_Files/Textures/Texture_Grass.png
+    - Assets/_Source_Files/Textures/Texture_Grass.png.meta
+    - Assets/black.mat
+    - Assets/black.mat.meta
+    - Assets/images.png
+    - Assets/images.png.meta
+    - Assets/istockphoto-1263746475-612x612.jpg
+    - Assets/istockphoto-1263746475-612x612.jpg.meta
+    - Assets/materials.meta
+    - Assets/materials/New Material 1.mat
+    - Assets/materials/New Material 1.mat.meta
+    - Assets/materials/New Material 2.mat
+    - Assets/materials/New Material 2.mat.meta
+    - Assets/materials/New Material.mat
+    - Assets/materials/New Material.mat.meta
+    - Assets/materials/glass 1.mat
+    - Assets/materials/glass 1.mat.meta
+    - Assets/materials/glass 2.mat
+    - Assets/materials/glass 2.mat.meta
+    - Assets/materials/glass.mat
+    - Assets/materials/glass.mat.meta
+    - Assets/materials/images.mat
+    - Assets/materials/images.mat.meta
+    - Assets/maxresdefault.jpg
+    - Assets/maxresdefault.jpg.meta
+    - Assets/scripts.meta
+    - Assets/scripts/CameraController.cs
+    - Assets/scripts/CameraController.cs.meta
+    - Assets/scripts/PlayerController.cs
+    - Assets/scripts/PlayerController.cs.meta
+    - Assets/scripts/PlayerController2.cs
+    - Assets/scripts/PlayerController2.cs.meta
+    - Assets/scripts/Rotater.cs
+    - Assets/scripts/Rotater.cs.meta
+    - Assets/tree.mat
+    - Assets/tree.mat.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
