@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float minY = -50f;
     public string horizontalbutton = "Horizontal_P1";
     public string verticalbutton = "Vertical_P1";
+    private float  booster;
 
     private Rigidbody rb;
     private int count;
@@ -23,7 +24,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         count = 0;
         count = 0;
-        boost = 30;
+       ;        
         startLocation = (transform.position);
         //SetCountText ();
         //winText.text ="";
@@ -34,7 +35,9 @@ public class PlayerController : MonoBehaviour
        
         Debug.Log (isGrounded());
         if (Input.GetKey(KeyCode.LeftShift)){
-            rb.AddForce(0,0,boost);
+            booster = boost;
+        } else{
+            booster = 1;
         }
         if (Input.GetKey(KeyCode.Space)&&isGrounded()){
             Vector3 jumpVelocity = new Vector3 (0f, jumpspeed, 0f);
@@ -43,7 +46,7 @@ public class PlayerController : MonoBehaviour
         
         float moveHorizontal = Input.GetAxis(horizontalbutton);
         float moveVertical = Input.GetAxis(verticalbutton);
-        Vector3 movement = new Vector3 (moveHorizontal * speed, 0.0f, moveVertical * speed);
+        Vector3 movement = new Vector3 (moveHorizontal * speed * booster, 0.0f, moveVertical * speed * booster);
 
         rb.AddForce (movement);
     }
